@@ -1,0 +1,15 @@
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\bin\Debug\Doggy_Lost.exe
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\bin\Debug\Doggy_Lost.exe.config
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.csproj.AssemblyReference.cache
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.ExitMenuForm.resources
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.Start.resources
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.Properties.Resources.resources
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.csproj.GenerateResource.cache
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.csproj.CoreCompileInputs.cache
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.exe
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.pdb
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\bin\Debug\Doggy_Lost.pdb
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.Introduction.resources
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.Forest1.resources
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.Road2.resources
+D:\Урочки\Курсова\Doggy_Lost\Doggy_Lost\obj\Debug\Doggy_Lost.Settings.resources

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2003694-6A4A-40A7-AC6B-02BB21589AA2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Doggy_Lost</RootNamespace>
+    <AssemblyName>Doggy_Lost</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExitMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExitMenuForm.Designer.cs">
+      <DependentUpon>ExitMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forest1.Designer.cs">
+      <DependentUpon>Forest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Introdaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Introdaction.Designer.cs">
+      <DependentUpon>Introdaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerAnimation.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Road2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Road2.Designer.cs">
+      <DependentUpon>Road2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forest1.resx">
+      <DependentUpon>Forest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExitMenuForm.resx">
+      <DependentUpon>ExitMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Introdaction.resx">
+      <DependentUpon>Introdaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Road2.resx">
+      <DependentUpon>Road2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartButton_Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartButton_Click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExitBtn_Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExitBtn_Click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExitBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clouds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameName.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartBackground_NoBorders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameName1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExitMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabelExit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabelYes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabelNo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartBackground_Blur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabelYes_Click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabelYes_Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabelNo_Click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabelNo_Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intro.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForestBG.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForestBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YouTalk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ManTalk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForestBtnTalk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RoadBG.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cars\Car1Down.png" />
+    <Content Include="Cars\Car1Up.png" />
+    <Content Include="Cars\Car2Down.png" />
+    <Content Include="Cars\Car2Up.png" />
+    <Content Include="Cars\Car3Down.png" />
+    <Content Include="Cars\Car3Up.png" />
+    <None Include="Doggy\Dog_FrontSit.png" />
+    <Content Include="Other\FrameDown.png" />
+    <None Include="Other\FrameRight.png" />
+    <None Include="Other\FrameLeft.png" />
+    <Content Include="Other\FrameUp.png" />
+    <Content Include="Player\Player_Back.png" />
+    <Content Include="Player\Player_Back1.png" />
+    <Content Include="Player\Player_Back2.png" />
+    <Content Include="Player\Player_Dead.png" />
+    <Content Include="Player\Player_Front.png" />
+    <Content Include="Player\Player_Front1.png" />
+    <Content Include="Player\Player_Front2.png" />
+    <Content Include="Player\Player_Left.png" />
+    <Content Include="Player\Player_Left1.png" />
+    <Content Include="Player\Player_Left2.png" />
+    <Content Include="Player\Player_Right.png" />
+    <Content Include="Player\Player_Right1.png" />
+    <Content Include="Player\Player_Right2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
