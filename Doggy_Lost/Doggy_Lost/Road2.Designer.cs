@@ -33,7 +33,6 @@
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.instruction = new System.Windows.Forms.Label();
             this.timerCarAccident = new System.Windows.Forms.Timer(this.components);
-            this.doggy = new System.Windows.Forms.PictureBox();
             this.framePartRight = new System.Windows.Forms.PictureBox();
             this.framePartLeft = new System.Windows.Forms.PictureBox();
             this.car3 = new System.Windows.Forms.PictureBox();
@@ -54,7 +53,7 @@
             this.limit2 = new System.Windows.Forms.PictureBox();
             this.limit1 = new System.Windows.Forms.PictureBox();
             this.frame = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.doggy)).BeginInit();
+            this.timerClose = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.framePartRight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.framePartLeft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.car3)).BeginInit();
@@ -99,18 +98,6 @@
             // timerCarAccident
             // 
             this.timerCarAccident.Tick += new System.EventHandler(this.timerCarAccident_Tick);
-            // 
-            // doggy
-            // 
-            this.doggy.BackColor = System.Drawing.Color.Transparent;
-            this.doggy.Image = global::Doggy_Lost.Properties.Resources.Dog_FrontSit;
-            this.doggy.Location = new System.Drawing.Point(1129, 266);
-            this.doggy.Name = "doggy";
-            this.doggy.Size = new System.Drawing.Size(35, 44);
-            this.doggy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.doggy.TabIndex = 24;
-            this.doggy.TabStop = false;
-            this.doggy.Click += new System.EventHandler(this.doggy_Click);
             // 
             // framePartRight
             // 
@@ -322,12 +309,16 @@
             this.frame.TabIndex = 1;
             this.frame.TabStop = false;
             // 
+            // timerClose
+            // 
+            this.timerClose.Interval = 50;
+            this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
+            // 
             // Road2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 600);
-            this.Controls.Add(this.doggy);
+            this.ClientSize = new System.Drawing.Size(800, 600);
             this.Controls.Add(this.framePartRight);
             this.Controls.Add(this.framePartLeft);
             this.Controls.Add(this.car3);
@@ -356,7 +347,6 @@
             this.Text = "Road2";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Road1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Road1_KeyUp);
-            ((System.ComponentModel.ISupportInitialize)(this.doggy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.framePartRight)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.framePartLeft)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.car3)).EndInit();
@@ -407,6 +397,6 @@
         private System.Windows.Forms.Timer timerCarAccident;
         private System.Windows.Forms.PictureBox framePartLeft;
         private System.Windows.Forms.PictureBox framePartRight;
-        private System.Windows.Forms.PictureBox doggy;
+        private System.Windows.Forms.Timer timerClose;
     }
 }

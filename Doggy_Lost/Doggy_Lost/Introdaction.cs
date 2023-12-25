@@ -65,8 +65,8 @@ namespace Doggy_Lost
             }
             if (e.KeyCode == Keys.Escape)
             {
-                ExitMenuForm form2 = new ExitMenuForm();
-                form2.Show();
+                Settings set = new Settings();
+                set.Show();
             }
         }
         private void Introduction_KeyUp(object sender, KeyEventArgs e)

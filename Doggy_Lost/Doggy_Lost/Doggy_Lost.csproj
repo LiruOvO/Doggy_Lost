@@ -64,6 +64,12 @@
     <Compile Include="Introdaction.Designer.cs">
       <DependentUpon>Introdaction.cs</DependentUpon>
     </Compile>
+    <Compile Include="Park3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Park3.Designer.cs">
+      <DependentUpon>Park3.cs</DependentUpon>
+    </Compile>
     <Compile Include="PlayerAnimation.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Introdaction.resx">
       <DependentUpon>Introdaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Park3.resx">
+      <DependentUpon>Park3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Road2.resx">
       <DependentUpon>Road2.cs</DependentUpon>
@@ -208,7 +217,7 @@
     <None Include="Resources\ManTalk.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ForestBtnTalk.png" />
+    <None Include="Resources\BtnTalk.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\RoadBG.gif" />
@@ -220,6 +229,16 @@
     <Content Include="Cars\Car2Up.png" />
     <Content Include="Cars\Car3Down.png" />
     <Content Include="Cars\Car3Up.png" />
+    <None Include="Resources\GirlTalk1.png" />
+    <None Include="Resources\GirlTalk.png" />
+    <None Include="Resources\ParkBG.gif" />
+    <None Include="Resources\ParkBG.png" />
+    <None Include="Resources\LabelReset_Hover.png" />
+    <None Include="Resources\LabelExitBtn_Hover.png" />
+    <None Include="Resources\LabelExitBtn.png" />
+    <None Include="Resources\LabelReset.png" />
+    <None Include="Resources\LabelSettings.png" />
+    <None Include="Resources\SettingsMenu.png" />
     <None Include="Doggy\Dog_FrontSit.png" />
     <Content Include="Other\FrameDown.png" />
     <None Include="Other\FrameRight.png" />

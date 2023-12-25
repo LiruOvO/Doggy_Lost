@@ -15,8 +15,6 @@ namespace Doggy_Lost
             frame.Parent = bg;
             man.Parent = frame;
             talkingImg.Hide();talkingImgBtn.Hide();talkingText.Hide();
-
-            
         }
 
 
@@ -70,17 +68,11 @@ namespace Doggy_Lost
             //Меню виходу
             if (e.KeyCode == Keys.Escape)
             {
-                ExitMenuForm form2 = new ExitMenuForm();
-                form2.Show();
+                Settings set = new Settings();
+                set.Show();
             }
 
             timer.Start();
-        }
-        //Плавний перехід між формами
-        public int i = 1;
-        private void timerClose_Tick(object sender, EventArgs e)
-        {
-            if (i < 2) i++; else this.Hide();
         }
         private void Forest1_KeyUp(object sender, KeyEventArgs e)
         {
@@ -92,6 +84,15 @@ namespace Doggy_Lost
 
 
 
+        //Плавний перехід між формами
+        public int i = 1;
+        private void timerClose_Tick(object sender, EventArgs e)
+        {
+            if (i < 2) i++; else this.Hide();
+        }
+
+
+
         //Взаємодія з перехожим
         private void man_Click(object sender, EventArgs e)
         {
@@ -99,7 +100,7 @@ namespace Doggy_Lost
             man.BringToFront();
             instruction.Hide(); man.Hide();
             //Розташування елементів
-            talkingImg.Show();talkingImgBtn.Show(); talkingText.Show();
+            talkingImg.Show(); talkingImgBtn.Show(); talkingText.Show();
             talkingImgBtn.Parent = talkingImg; talkingText.Parent = talkingImg;
             talkingImgBtn.Location = new Point(466,282); talkingText.Location = new Point(60,120);
             UpdateDisplayOrder();
@@ -108,8 +109,8 @@ namespace Doggy_Lost
         //Розмова з перехожим
         private void talkingImgBtn_MouseDown(object sender, MouseEventArgs e)
         {
-            talkingImgBtn.Image = Properties.Resources.ForestBtnTalk;
-            if (num == 0) { talkingText.Text = "Добридень! Ви часом не бачили песика,\nкоричневого кольору з блакитним нашийником?\n\nВін наче побіг у цю сторону ;("; talkingImg.Image = Properties.Resources.YouTalk; num++; }
+            talkingImgBtn.Image = Properties.Resources.BtnTalk;
+            if (num == 0) { talkingText.Text = "Добридень! Ви часом не бачили песика \nкоричневого кольору з блакитним нашийником?\n\nВін, наче, побіг у цю сторону ;("; talkingImg.Image = Properties.Resources.YouTalk; num++; }
             else if (num == 1) { talkingText.Text = "О, так, бачив такого. Він побіг далі в сторону шосе."; talkingImg.Image = Properties.Resources.ManTalk; num++; }
             else if (num == 2) { talkingText.Text = "Дякую вам, гарного дня!"; talkingImg.Image = Properties.Resources.YouTalk; num++; }
             else if (num == 3) { talkingText.Text = "І тобі також, хай щастить, хлопче!"; talkingImg.Image = Properties.Resources.ManTalk; num++; }

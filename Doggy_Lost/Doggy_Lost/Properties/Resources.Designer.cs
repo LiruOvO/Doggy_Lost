@@ -63,6 +63,16 @@ namespace Doggy_Lost.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BtnTalk {
+            get {
+                object obj = ResourceManager.GetObject("BtnTalk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Car1Down {
             get {
                 object obj = ResourceManager.GetObject("Car1Down", resourceCulture);
@@ -203,16 +213,6 @@ namespace Doggy_Lost.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ForestBtnTalk {
-            get {
-                object obj = ResourceManager.GetObject("ForestBtnTalk", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Frame {
             get {
                 object obj = ResourceManager.GetObject("Frame", resourceCulture);
@@ -283,6 +283,26 @@ namespace Doggy_Lost.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GirlTalk {
+            get {
+                object obj = ResourceManager.GetObject("GirlTalk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GirlTalk1 {
+            get {
+                object obj = ResourceManager.GetObject("GirlTalk1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Intro {
             get {
                 object obj = ResourceManager.GetObject("Intro", resourceCulture);
@@ -296,6 +316,26 @@ namespace Doggy_Lost.Properties {
         internal static System.Drawing.Bitmap LabelExit {
             get {
                 object obj = ResourceManager.GetObject("LabelExit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LabelExitBtn {
+            get {
+                object obj = ResourceManager.GetObject("LabelExitBtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LabelExitBtn_Hover {
+            get {
+                object obj = ResourceManager.GetObject("LabelExitBtn_Hover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -326,6 +366,36 @@ namespace Doggy_Lost.Properties {
         internal static System.Drawing.Bitmap LabelNo_Hover {
             get {
                 object obj = ResourceManager.GetObject("LabelNo_Hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LabelReset {
+            get {
+                object obj = ResourceManager.GetObject("LabelReset", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LabelReset_Hover {
+            get {
+                object obj = ResourceManager.GetObject("LabelReset_Hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LabelSettings {
+            get {
+                object obj = ResourceManager.GetObject("LabelSettings", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -366,6 +436,26 @@ namespace Doggy_Lost.Properties {
         internal static System.Drawing.Bitmap ManTalk {
             get {
                 object obj = ResourceManager.GetObject("ManTalk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ParkBG {
+            get {
+                object obj = ResourceManager.GetObject("ParkBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ParkBG1 {
+            get {
+                object obj = ResourceManager.GetObject("ParkBG1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -506,6 +596,16 @@ namespace Doggy_Lost.Properties {
         internal static System.Drawing.Bitmap RoadBG {
             get {
                 object obj = ResourceManager.GetObject("RoadBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SettingsMenu {
+            get {
+                object obj = ResourceManager.GetObject("SettingsMenu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

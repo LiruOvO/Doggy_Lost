@@ -16,23 +16,12 @@ namespace Doggy_Lost
             player.Parent = frame;
             car1.Parent = frame; car2.Parent = frame; car3.Parent = frame; car4.Parent = frame; car5.Parent = frame; car6.Parent = frame;
 
-            /////////////////////////////
-            doggy.Parent = frame;
-
             timer.Start();
             timerCarAccident.Start();
             //Збереження прогресу
             File.WriteAllText("Saving.txt", "Doggy_Lost.Road2");
             
         }
-
-
-
-        //
-        //ТРЕБА ЗНАЙТИ СПОСІБ ДЛЯ ЗУПИНКИ ГРАВЦЯ ПРИ ДОТОРКАННІ ДО ЛІМІТІВ
-        //
-
-
 
 
 
@@ -52,18 +41,14 @@ namespace Doggy_Lost
             if (goLeft == true && roadBG.Left < 0)
             {
                 roadBG.Left += backgroundSpeed;
-                frame.Left -= backgroundSpeed;
-                /////////////////////////////
-                doggy.Left += backgroundSpeed;
+                frame.Left -= backgroundSpeed;                
 
                 car1.Left += backgroundSpeed; car2.Left += backgroundSpeed; car3.Left += backgroundSpeed; car4.Left += backgroundSpeed; car5.Left += backgroundSpeed; car6.Left += backgroundSpeed;
             }
             if(goRight ==true && roadBG.Left > -400)
             {
                 roadBG.Left -= backgroundSpeed;
-                frame.Left += backgroundSpeed;
-                /////////////////////////////
-                doggy.Left -= backgroundSpeed;
+                frame.Left += backgroundSpeed;                
 
                 car1.Left -= backgroundSpeed; car2.Left -= backgroundSpeed; car3.Left -= backgroundSpeed; car4.Left -= backgroundSpeed; car5.Left -= backgroundSpeed; car6.Left -= backgroundSpeed;
             }
@@ -81,18 +66,12 @@ namespace Doggy_Lost
 
             
         }
-        /////////////////////////////////////////////////////
-        private void doggy_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Ви пройшли гру");
-            this.Close();
-        }
 
-        int sleep = 0;
 
 
 
         //Врізання гравця в машику та запуск спочатку
+        int sleep = 0;
         private void timerCarAccident_Tick(object sender, EventArgs e)
         {
             if (player.Bounds.IntersectsWith(car1.Bounds) || player.Bounds.IntersectsWith(car2.Bounds) || player.Bounds.IntersectsWith(car3.Bounds) ||
@@ -120,16 +99,21 @@ namespace Doggy_Lost
         //Натискання кнопок
         private void Road1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Left || e.KeyCode == Keys.A) goLeft = true;
+            if (e.KeyCode == Keys.Left || e.KeyCode == Keys.A) goLeft = true;             
             if (e.KeyCode == Keys.Right || e.KeyCode == Keys.D) goRight = true;
             if (e.KeyCode == Keys.Up || e.KeyCode == Keys.W) goUp = true;
             if (e.KeyCode == Keys.Down || e.KeyCode == Keys.S) goDown = true;
-            
-            //Меню виходу
+            if (player.Left > 730)
+            {
+                Park3 parkTeleport = new Park3();
+                parkTeleport.Show();
+                timerClose.Start();
+            }
+            //Меню налаштувань
             if (e.KeyCode == Keys.Escape)
             {
-                ExitMenuForm form2 = new ExitMenuForm();
-                form2.Show();
+                Settings set = new Settings();
+                set.Show();
             }
         }
         private void Road1_KeyUp(object sender, KeyEventArgs e)
@@ -138,6 +122,15 @@ namespace Doggy_Lost
             if (e.KeyCode == Keys.Right || e.KeyCode == Keys.D) { goRight = false; player.Image = Properties.Resources.Player_Right; }
             if (e.KeyCode == Keys.Up || e.KeyCode == Keys.W) { goUp = false; player.Image = Properties.Resources.Player_Back; }
             if (e.KeyCode == Keys.Down || e.KeyCode == Keys.S) { goDown = false; player.Image = Properties.Resources.Player_Front; }
+        }
+
+
+
+        //Плавний перехід між формами
+        public int i = 1;
+        private void timerClose_Tick(object sender, EventArgs e)
+        {
+            if (i < 2) i++; else this.Hide();
         }
 
 

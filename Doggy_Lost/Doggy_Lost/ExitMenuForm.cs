@@ -52,5 +52,6 @@ namespace Doggy_Lost
         {
             labelNo.Image = Properties.Resources.LabelNo_Click;
         }
+
     }
 }

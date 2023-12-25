@@ -104,5 +104,14 @@ namespace Doggy_Lost
         {
             if (i < 2) i++; else this.Hide();
         }
+
+        private void Start_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                Settings set = new Settings();
+                set.Show();
+            }
+        }
     }    
 }

@@ -159,6 +159,7 @@
             this.Name = "Start";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Start_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.startBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.background1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exitBtn)).EndInit();
