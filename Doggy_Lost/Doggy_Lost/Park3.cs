@@ -40,8 +40,8 @@ namespace Doggy_Lost
             if (e.KeyCode == Keys.Down || e.KeyCode == Keys.S) goDown = true;
             if (player.Left > 720 && instruction.Text == "Ідіть до кінця парку")
             {
-                Road2 roadTeleport = new Road2();
-                roadTeleport.Show();
+                Tree4 treeTeleport = new Tree4();
+                treeTeleport.Show();
                 timerClose.Start();
             }
             //Меню виходу
@@ -76,7 +76,7 @@ namespace Doggy_Lost
         {
             talkingImgBtn.Image = Properties.Resources.BtnTalk;
             if (num == 0) { talkingText.Text = "Добрий день! Я шукаю свого песика\nкоричневого кольору. \n\nВи, часом, не бачили його?"; talkingImg.Image = Properties.Resources.YouTalk; num++; }
-            else if (num == 1) { talkingText.Text = "Хмм... Точно! Він побіг далі та поліз на пагорб."; talkingImg.Image = Properties.Resources.GirlTalk; num++; }
+            else if (num == 1) { talkingText.Text = "Хмм... Точно! Начебто якесь створіння лізло на дерево"; talkingImg.Image = Properties.Resources.GirlTalk; num++; }
             else if (num == 2) { talkingText.Text = "Велике вам дякую!"; talkingImg.Image = Properties.Resources.YouTalk; num++; }
             else if (num == 3) { talkingText.Text = "Навзаєм :)"; talkingImg.Image = Properties.Resources.GirlTalk; num++; }
             else if (num == 4) { talkingImg.Hide(); talkingImgBtn.Hide(); talkingText.Hide(); girl.Show(); player.Show(); instruction.Show(); instruction.Text = "Ідіть до кінця парку"; num++; }

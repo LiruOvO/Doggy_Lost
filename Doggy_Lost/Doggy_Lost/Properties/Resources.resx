@@ -118,107 +118,65 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Player_Front2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Front2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StartButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartButton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ExitBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExitBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LabelReset_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelReset_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Car3Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Cars\Car3Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ForestBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ForestBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ExitMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExitMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RoadBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RoadBG.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LabelNo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LabelNo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Car3Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Cars\Car3Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StartButton_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StartButton_Click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ParkBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ParkBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Car1Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Cars\Car1Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LabelYes_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LabelYes_Click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ParkBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ParkBG.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LabelYes_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LabelYes_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FrameUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Other\FrameUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GirlTalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GirlTalk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ForestBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ForestBG.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Player_Left1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Left1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LabelExitBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LabelExitBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Player_Back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Back1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Player_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StartButton_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StartButton_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LabelNo_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LabelNo_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Player_Left2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Left2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Car2Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Cars\Car2Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Player_Front1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Front1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GameName" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GameName.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StartBackground_NoBorders" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StartBackground_NoBorders.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TreeBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Player_Right2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Player\Player_Right2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LabelSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LabelSettings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Car2Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Cars\Car2Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Player_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LabelYes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelYes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StartBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StartBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="YouTalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YouTalk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FrameDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Other\FrameDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StartButton_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartButton_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LabelNo_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LabelNo_Click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LabelYes_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelYes_Click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Player_Right1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Right1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GirlTalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GirlTalk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrameUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Other\FrameUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameName1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameName1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrameRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Other\FrameRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Car1Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Cars\Car1Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Front2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Front2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartButton_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartButton_Click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParkBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ParkBG.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RestartMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RestartMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabelReset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelReset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SettingsMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SettingsMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,82 +184,142 @@
   <data name="LabelExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LabelExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Car1Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Cars\Car1Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GameName1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GameName1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ExitBtn_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExitBtn_Click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Clouds" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Clouds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ExitBtn_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ExitBtn_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Car2Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Cars\Car2Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FrameRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Other\FrameRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Dog_FrontSit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Doggy\Dog_FrontSit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Intro.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BtnTalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BtnTalk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ManTalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ManTalk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Player_Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="FrameLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Other\FrameLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StartButton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StartButton1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Car1Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Cars\Car1Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ForestBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ForestBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Player_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Player_Dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Dead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Player_Back2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Player\Player_Back2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StartBackground_Blur" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StartBackground_Blur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LabelReset_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LabelReset_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Player_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LabelExitBtn_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LabelExitBtn_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="YouTalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\YouTalk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LabelNo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelNo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LabelReset" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LabelReset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Player_Dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Dead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LabelYes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LabelYes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Player_Left2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Left2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabeRestart_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabeRestart_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnTalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnTalk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Left1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Left1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Back1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Car3Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Cars\Car3Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clouds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clouds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExitMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExitMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RoadBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RoadBG.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameName.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabelAgain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelAgain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabelYes_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelYes_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExitBtn_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExitBtn_Click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabelNo_Click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelNo_Click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartBackground_NoBorders" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartBackground_NoBorders.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Car3Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Cars\Car3Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Front1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Front1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExitBtn_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExitBtn_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrameDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Other\FrameDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GirlTalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GirlTalk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ManTalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManTalk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Car2Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Cars\Car2Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ForestBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ForestBG.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExitBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExitBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParkBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ParkBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartBackground_Blur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartBackground_Blur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabelRestart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelRestart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dog_FrontSit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Doggy\Dog_FrontSit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabelSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelSettings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabelExitBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelExitBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabelNo_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelNo_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Back2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Back2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Right1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Right1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intro.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Player\Player_Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LabelRestart_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LabelRestart_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

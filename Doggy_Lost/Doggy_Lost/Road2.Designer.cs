@@ -225,9 +225,9 @@
             this.exitBtn.TabIndex = 5;
             this.exitBtn.TabStop = false;
             this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
-            this.exitBtn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ExitBtn_MouseDown);
-            this.exitBtn.MouseEnter += new System.EventHandler(this.ExitBtn_MouseEnter);
-            this.exitBtn.MouseLeave += new System.EventHandler(this.ExitBtn_MouseLeave);
+            this.exitBtn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.exitBtn_MouseDown);
+            this.exitBtn.MouseEnter += new System.EventHandler(this.exitBtn_MouseEnter);
+            this.exitBtn.MouseLeave += new System.EventHandler(this.exitBtn_MouseLeave);
             // 
             // roadBG
             // 

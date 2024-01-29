@@ -141,15 +141,15 @@ namespace Doggy_Lost
             ExitMenuForm exit = new ExitMenuForm();
             exit.Show();
         }
-        private void ExitBtn_MouseDown(object sender, MouseEventArgs e)
+        private void exitBtn_MouseDown(object sender, MouseEventArgs e)
         {
             exitBtn.Image = Properties.Resources.ExitBtn_Click;
         }
-        private void ExitBtn_MouseLeave(object sender, EventArgs e)
+        private void exitBtn_MouseLeave(object sender, EventArgs e)
         {
             exitBtn.Image = Properties.Resources.ExitBtn;
         }
-        private void ExitBtn_MouseEnter(object sender, EventArgs e)
+        private void exitBtn_MouseEnter(object sender, EventArgs e)
         {
             exitBtn.Image = Properties.Resources.ExitBtn_Hover;
         }

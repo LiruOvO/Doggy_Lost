@@ -313,6 +313,16 @@ namespace Doggy_Lost.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LabelAgain {
+            get {
+                object obj = ResourceManager.GetObject("LabelAgain", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LabelExit {
             get {
                 object obj = ResourceManager.GetObject("LabelExit", resourceCulture);
@@ -393,6 +403,26 @@ namespace Doggy_Lost.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LabelRestart {
+            get {
+                object obj = ResourceManager.GetObject("LabelRestart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LabelRestart_Hover {
+            get {
+                object obj = ResourceManager.GetObject("LabelRestart_Hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LabelSettings {
             get {
                 object obj = ResourceManager.GetObject("LabelSettings", resourceCulture);
@@ -426,6 +456,16 @@ namespace Doggy_Lost.Properties {
         internal static System.Drawing.Bitmap LabelYes_Hover {
             get {
                 object obj = ResourceManager.GetObject("LabelYes_Hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LabeRestart_Hover {
+            get {
+                object obj = ResourceManager.GetObject("LabeRestart_Hover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -593,6 +633,16 @@ namespace Doggy_Lost.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap RestartMenu {
+            get {
+                object obj = ResourceManager.GetObject("RestartMenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RoadBG {
             get {
                 object obj = ResourceManager.GetObject("RoadBG", resourceCulture);
@@ -666,6 +716,16 @@ namespace Doggy_Lost.Properties {
         internal static System.Drawing.Bitmap StartButton1 {
             get {
                 object obj = ResourceManager.GetObject("StartButton1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TreeBG {
+            get {
+                object obj = ResourceManager.GetObject("TreeBG", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
