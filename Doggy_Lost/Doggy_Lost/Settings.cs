@@ -51,8 +51,6 @@ namespace Doggy_Lost
         }
         private void labelReset_Click(object sender, EventArgs e)
         {
-            ExitMenuForm exit = new ExitMenuForm();
-            exit.Show();
             File.WriteAllText("Saving.txt", "Doggy_Lost.Start");            
             HideAllForms();            
         }

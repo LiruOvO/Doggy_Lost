@@ -1,6 +1,7 @@
 ﻿using Doggy_Lost.Resources;
 using System;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 //Початок гри, розмова з чоловіком
 namespace Doggy_Lost
@@ -15,6 +16,8 @@ namespace Doggy_Lost
             frame.Parent = bg;
             man.Parent = frame;
             talkingImg.Hide();talkingImgBtn.Hide();talkingText.Hide();
+            //Збереження прогресу
+            File.WriteAllText("Saving.txt", "Doggy_Lost.Forest1");
         }
 
 

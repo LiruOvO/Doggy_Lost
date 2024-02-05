@@ -96,6 +96,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TheEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TheEnd.Designer.cs">
+      <DependentUpon>TheEnd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tree4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TheEnd.resx">
+      <DependentUpon>TheEnd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tree4.resx">
       <DependentUpon>Tree4.cs</DependentUpon>
@@ -238,6 +247,8 @@
     <Content Include="Cars\Car2Up.png" />
     <Content Include="Cars\Car3Down.png" />
     <Content Include="Cars\Car3Up.png" />
+    <None Include="Resources\TheEnd.gif" />
+    <None Include="Resources\EndBg.gif" />
     <None Include="Resources\LabelRestart_Hover.png" />
     <None Include="Resources\RestartMenu.png" />
     <None Include="Resources\LabelRestart.png" />
@@ -254,6 +265,8 @@
     <None Include="Resources\LabelSettings.png" />
     <None Include="Resources\SettingsMenu.png" />
     <None Include="Doggy\Dog_FrontSit.png" />
+    <None Include="Doggy\Dog_TailLeft.png" />
+    <None Include="Doggy\Dog_TailRight.png" />
     <Content Include="Other\FrameDown.png" />
     <None Include="Other\FrameRight.png" />
     <None Include="Other\FrameLeft.png" />

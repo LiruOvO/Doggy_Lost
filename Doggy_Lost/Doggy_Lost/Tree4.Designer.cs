@@ -49,6 +49,9 @@
             this.labelAgain = new System.Windows.Forms.PictureBox();
             this.labelRestart = new System.Windows.Forms.PictureBox();
             this.restartMenu = new System.Windows.Forms.PictureBox();
+            this.doggy = new System.Windows.Forms.PictureBox();
+            this.timerDog = new System.Windows.Forms.Timer(this.components);
+            this.timerClose = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.treeBG)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.framePartDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.framePartRight)).BeginInit();
@@ -65,6 +68,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.labelAgain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.labelRestart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.restartMenu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doggy)).BeginInit();
             this.SuspendLayout();
             // 
             // treeBG
@@ -120,7 +124,7 @@
             this.player.Image = global::Doggy_Lost.Properties.Resources.Player_Right;
             this.player.Location = new System.Drawing.Point(69, 1040);
             this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(80, 100);
+            this.player.Size = new System.Drawing.Size(52, 100);
             this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.player.TabIndex = 30;
             this.player.TabStop = false;
@@ -261,6 +265,30 @@
             this.restartMenu.TabIndex = 41;
             this.restartMenu.TabStop = false;
             // 
+            // doggy
+            // 
+            this.doggy.BackColor = System.Drawing.Color.Transparent;
+            this.doggy.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.doggy.Image = global::Doggy_Lost.Properties.Resources.Dog_TailLeft;
+            this.doggy.Location = new System.Drawing.Point(540, 251);
+            this.doggy.Name = "doggy";
+            this.doggy.Size = new System.Drawing.Size(52, 63);
+            this.doggy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.doggy.TabIndex = 42;
+            this.doggy.TabStop = false;
+            this.doggy.Click += new System.EventHandler(this.doggy_Click);
+            // 
+            // timerDog
+            // 
+            this.timerDog.Enabled = true;
+            this.timerDog.Interval = 500;
+            this.timerDog.Tick += new System.EventHandler(this.timerDog_Tick);
+            // 
+            // timerClose
+            // 
+            this.timerClose.Interval = 50;
+            this.timerClose.Tick += new System.EventHandler(this.timerClose_Tick);
+            // 
             // Tree4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -268,9 +296,10 @@
             this.BackgroundImage = global::Doggy_Lost.Properties.Resources.TreeBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 600);
-            this.Controls.Add(this.restartMenu);
-            this.Controls.Add(this.labelRestart);
             this.Controls.Add(this.labelAgain);
+            this.Controls.Add(this.labelRestart);
+            this.Controls.Add(this.restartMenu);
+            this.Controls.Add(this.doggy);
             this.Controls.Add(this.player);
             this.Controls.Add(this.platform5);
             this.Controls.Add(this.platform4);
@@ -309,6 +338,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.labelAgain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.labelRestart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.restartMenu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doggy)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -335,5 +365,8 @@
         private System.Windows.Forms.PictureBox labelAgain;
         private System.Windows.Forms.PictureBox labelRestart;
         private System.Windows.Forms.PictureBox restartMenu;
+        private System.Windows.Forms.PictureBox doggy;
+        private System.Windows.Forms.Timer timerDog;
+        private System.Windows.Forms.Timer timerClose;
     }
 }

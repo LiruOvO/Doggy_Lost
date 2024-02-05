@@ -14,6 +14,7 @@ namespace Doggy_Lost
 {
     public partial class Tree4 : Form
     {
+        public byte o;
         public Tree4()
         {
             InitializeComponent();
@@ -23,8 +24,10 @@ namespace Doggy_Lost
             exitBtn.Top = 612;
             timerPlayer.Start();
 
-            player.Parent = treeBG; platform0.Parent = treeBG; platform1.Parent = treeBG; platform2.Parent = treeBG;
-            platform3.Parent = treeBG; platform4.Parent = treeBG; platform5.Parent = treeBG;
+            player.Parent = treeBG; doggy.Parent = treeBG; platform1.Parent = treeBG; platform2.Parent = treeBG;
+            platform0.Parent = treeBG; platform3.Parent = treeBG; platform4.Parent = treeBG; platform5.Parent = treeBG;
+
+            doggy.BringToFront();
 
             labelAgain.Hide(); labelRestart.Hide(); restartMenu.Hide();
             labelAgain.Parent = restartMenu; labelRestart.Parent = restartMenu;
@@ -64,6 +67,7 @@ namespace Doggy_Lost
             if (e.KeyCode == Keys.Right || e.KeyCode == Keys.D) { goRight = false; player.Image = Properties.Resources.Player_Right; }
         }
          
+
 
 
         //Прижок гравця
@@ -128,6 +132,45 @@ namespace Doggy_Lost
                 labelAgain.Show(); labelRestart.Show(); restartMenu.Show();
                 timerJump.Stop();
             }
+
+            if (player.Bounds.IntersectsWith(doggy.Bounds))
+            {
+                timerJump.Stop(); timerPlayer.Stop();
+                instruction.Text = "Погладьте песика";
+            }
+        }
+
+
+
+        //Песик
+        private void timerDog_Tick(object sender, EventArgs e)
+        {
+            if (o == 0)
+            {
+                doggy.Image = Properties.Resources.Dog_TailRight;
+                o = 1;
+            } 
+            else if (o == 1)
+            {
+                doggy.Image = Properties.Resources.Dog_TailLeft;
+                o = 0;
+            }
+        }
+        private void doggy_Click(object sender, EventArgs e)
+        {
+            TheEnd end = new TheEnd();
+            end.Show();
+            timerClose.Start();
+        }
+
+
+
+
+        //Плавний перехід між формами
+        public int a = 1;
+        private void timerClose_Tick(object sender, EventArgs e)
+        {
+            if (a < 2) a++; else this.Hide();
         }
 
 

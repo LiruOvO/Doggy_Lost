@@ -76,7 +76,7 @@ namespace Doggy_Lost
         {
             talkingImgBtn.Image = Properties.Resources.BtnTalk;
             if (num == 0) { talkingText.Text = "Добрий день! Я шукаю свого песика\nкоричневого кольору. \n\nВи, часом, не бачили його?"; talkingImg.Image = Properties.Resources.YouTalk; num++; }
-            else if (num == 1) { talkingText.Text = "Хмм... Точно! Начебто якесь створіння лізло на дерево"; talkingImg.Image = Properties.Resources.GirlTalk; num++; }
+            else if (num == 1) { talkingText.Text = "Хмм... Точно! Начебто щось лізло на дерево"; talkingImg.Image = Properties.Resources.GirlTalk; num++; }
             else if (num == 2) { talkingText.Text = "Велике вам дякую!"; talkingImg.Image = Properties.Resources.YouTalk; num++; }
             else if (num == 3) { talkingText.Text = "Навзаєм :)"; talkingImg.Image = Properties.Resources.GirlTalk; num++; }
             else if (num == 4) { talkingImg.Hide(); talkingImgBtn.Hide(); talkingText.Hide(); girl.Show(); player.Show(); instruction.Show(); instruction.Text = "Ідіть до кінця парку"; num++; }
@@ -105,7 +105,6 @@ namespace Doggy_Lost
             ExitMenuForm exit = new ExitMenuForm();
             exit.Show();
         }
-
         private void ExitBtn_MouseDown(object sender, MouseEventArgs e)
         {
             exitBtn.Image = Properties.Resources.ExitBtn_Click;

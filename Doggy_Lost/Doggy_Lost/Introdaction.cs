@@ -35,9 +35,7 @@ namespace Doggy_Lost
             if (introBG.Top == -1000)
             {
                 Thread.Sleep(3000);                                
-                forest1.Show();
-                //Збереження прогресу
-                File.WriteAllText("Saving.txt", "Doggy_Lost.Forest1");
+                forest1.Show();                
                 timerClose.Start();
             }
         }
