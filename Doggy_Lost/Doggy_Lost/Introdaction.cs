@@ -40,7 +40,15 @@ namespace Doggy_Lost
             }
         }
 
-        
+
+
+        //Плавний перехід між формами
+        private void timerClose_Tick(object sender, EventArgs e)
+        {
+            if (i < 2) i++; else this.Hide();
+        }
+
+
 
         //Space - пришвидшення сповзання вікна
         //Enter - пропуск інтро, перехід на наступну форму
@@ -70,14 +78,6 @@ namespace Doggy_Lost
         private void Introduction_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space) speed = 1;
-        }
-
-
-
-        //Плавний перехід між формами
-        private void timerClose_Tick(object sender, EventArgs e)
-        {
-            if (i < 2) i++; else this.Hide();
         }
     }
 }

@@ -142,7 +142,7 @@ namespace Doggy_Lost
 
 
 
-        //Песик
+        //Нажаття на песика
         private void timerDog_Tick(object sender, EventArgs e)
         {
             if (o == 0)

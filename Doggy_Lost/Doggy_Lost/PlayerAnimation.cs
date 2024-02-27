@@ -119,11 +119,5 @@ namespace Doggy_Lost.Resources
                 if (frame == 6) frame++; else frame = 0;
             }
         }
-
-
-
-
-
-        
     }
 }
